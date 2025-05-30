@@ -64,16 +64,6 @@ const Gameboard = (function () {
             }).join(" "));
         });
 
-        // console.log(printableArray[0][0].getPlayerValueOfCell())
-        // const boardWithPlayerValues = printableArray.map((row) => {
-        //     row.map((cell) => cell.getPlayerValueOfCell());
-        // })
-        //          const printBoard = () => {
-        //     const boardWithCellValues = board.map((row) => row.map((cell) => cell.getValue()))
-        //     console.log(boardWithCellValues);
-        //   };
-        // console.log(boardWithPlayerValues)
-        // console.table(boardWithPlayerValues)
     }
     const getGameBoard = () => { return gameboard }
 
@@ -238,12 +228,3 @@ console.log(`Start game with GameBoard.createBoard().
     Then add 2 players by  Player.addNewPlayer(name) 
      and then play the game with choosing your cell by number from 1 to 9 using GameController.playGame(cell)`);
 
-// function fun(arr, b) {
-//     let result = arr.some((a) => {
-//         let everyResult = a.every((item) => {
-//             if (b.includes(item)) return true;
-//         });
-//         return everyResult;
-//     })
-//     return result;
-// }
